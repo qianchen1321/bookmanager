@@ -99,7 +99,7 @@ celerybeat.pid
 .env
 .venv
 env/
-venv/
+venv/*
 ENV/
 env.bak/
 venv.bak/
@@ -136,3 +136,6 @@ cython_debug/
 #database migrations
 **/migrations/*.py
 !**/migrations/__init__.py
+
+#testdir
+test/*
